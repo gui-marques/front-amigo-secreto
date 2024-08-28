@@ -129,9 +129,9 @@ type AddPersonData = {
     chave: string
 }
 export const addPerson = async (eventId: number, groupId: number, data: AddPersonData): Promise<PersonComplete | false> => {
-    const token = getToken();
+    
     const json = await req.post(`/admin/events/${eventId}/groups/${groupId}/people`, data, {
-        headers: { 'Authorization':`${token}` }
+       
     });
     return json.data.person as PersonComplete ?? false;
 }
