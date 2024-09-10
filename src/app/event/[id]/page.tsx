@@ -21,7 +21,7 @@ const Page = async ({ params }: Props) => {
     
             </>
 
-            <footer className="mt-5 text-sm">Criado por Guilherme Maques</footer>
+            <footer className="mt-5 text-sm">Criado por Guilherme Marques</footer>
         </main>
     );
 }
