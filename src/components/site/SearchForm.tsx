@@ -51,13 +51,13 @@ export const SearchForm = ({ onSearchButton, loading }: Props) => {
             >
                 {loading ? 'Buscando...' : 'Entrar'}
             </button>
-            <button
+{/*             <button
                 className="w-full p-3 mt-3 rounded-lg bg-blue-800 text-white text-4xl border-b-4 border-blue-600 active:border-0 disabled:opacity-20"
                 onClick={handleCadastrar} 
                 disabled={loading}
             >
                 {loading ? 'Buscando...' : 'Cadastrar'}
-            </button>
+            </button> */}
             
         </div>
    
