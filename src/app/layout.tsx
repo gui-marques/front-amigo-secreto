@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'ATIBrasil - Amigo Secreto'
+  title: 'Helisul- Amigo Secreto'
 }
 
 export default function RootLayout({

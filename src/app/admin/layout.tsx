@@ -20,7 +20,7 @@ const Layout = ({ children }: Props) => {
         <div>          
             <header className="bg-gray-800 text-center py-5 flex justify-between items-center px-10">
                 <div className="justify-center mx-auto">
-                    <h3 className="text-3xl ">ATIBrasil</h3>
+                    <h3 className="text-3xl ">Helisul</h3>
                     <h4 className="text-base">Painel de Controle</h4>
                 </div>
                 <button 

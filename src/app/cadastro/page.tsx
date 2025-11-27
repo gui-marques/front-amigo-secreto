@@ -64,7 +64,7 @@ const Cadastro = () => {
   return (
     <div className="flex items-center justify-center w-full h-screen bg-black">
       <div className="w-full max-w-md p-6 bg-gray-800 text-gray-100 rounded-lg shadow-lg">
-        <div className="text-center text-2xl mb-4">Amigo Secreto <br/> ATI BRASIL</div>
+        <div className="text-center text-2xl mb-4">Amigo Secreto <br/> Helisul</div>
         <p className="mb-3 text-xl text-center">Qual seu nome?</p>
         <input
           type="text"

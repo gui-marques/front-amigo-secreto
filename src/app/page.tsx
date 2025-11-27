@@ -22,7 +22,7 @@ const Page = () => {
   }
   return (
     <div className="text-center text-4xl">
-      <h1 className="text-center text-4xl my-3">ATIBrasil - Amigo Secreto</h1>
+      <h1 className="text-center text-4xl my-3">Helisul - Amigo Secreto</h1>
    
       <Button
                     value={loading ? 'Carregando...' : 'Painel do administrador'}
