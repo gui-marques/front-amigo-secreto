@@ -82,6 +82,7 @@ export const PersonAdd = ({ eventId, groupId, refreshAction }: Props) => {
                 disabled={loading}
             />
             <InputField
+                type="password"
                 value={chaveField}
                 onChange={e => setChaveField(e.target.value)}
                 placeholder="Digite a chave da pessoa"
